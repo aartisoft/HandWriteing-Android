@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/group1">
+    <item
+        android:id="@+id/menu_write"
+        android:icon="@drawable/ic_create"
+        android:title="Write in Hand" />
+
+    <item
+        android:id="@+id/menu_submit"
+        android:icon="@drawable/ic_submut"
+        android:title="Submit Write" />
+
+        <item
+            android:id="@+id/menu_result"
+            android:icon="@drawable/ic_emoji"
+            android:title="Result" />
+
+    </group>
+
+    <group android:id="@+id/group2">
+    <item
+        android:id="@+id/menu_rateus"
+        android:icon="@drawable/ic_rate"
+        android:title="Rate Us" />
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/ic_share"
+        android:title="Share" />
+
+        <item
+            android:id="@+id/menu_privcy"
+            android:icon="@drawable/ic_info"
+            android:title="Privacy Policy" />
+    </group>
+
+</menu>

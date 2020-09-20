@@ -1,0 +1,2 @@
+rootProject.name='HandWriteing'
+include ':app'

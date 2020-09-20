@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.copypasteit.handwriting.competition">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3010341507881755~8029122586"/>
+
+        <!-- TODO replace YOUR_APP_ID with actual value -->
+        <meta-data
+            android:name="com.startapp.sdk.APPLICATION_ID"
+            android:value="208887547" />
+
+        <activity android:name=".MainActivity.MainActivity" android:windowSoftInputMode="adjustPan|adjustResize">
+
+        </activity>
+        <activity android:name=".HomeActivity.HomeActivity">
+
+        </activity>
+        <activity android:name=".ReadActivity.ReadActivity" />
+        <activity android:name=".GalleryActivity.GalleryActivity" />
+        <activity android:name=".SplashActivity.SplashActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>
